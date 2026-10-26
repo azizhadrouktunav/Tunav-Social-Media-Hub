@@ -44,5 +44,7 @@ export const socialLinks: CompanyLink[] = [
 export const contactDetails = {
   email: "contact@tunav.com",
   phone: "+216 71 807 667",
-  phoneHref: "tel:+21671807667"
+  phoneHref: "tel:+21671807667",
+  agentPhone: "+216 95 992 452",
+  agentPhoneHref: "tel:+21695992452"
 };

@@ -32,6 +32,7 @@ export function App() {
           <div className="mt-8 hidden w-full max-w-sm divide-y divide-brand/10 border-y border-brand/10 lg:block">
             <ContactDetail label="Email" value={contactDetails.email} href={`mailto:${contactDetails.email}`} />
             <ContactDetail label="Phone" value={contactDetails.phone} href={contactDetails.phoneHref} />
+            <ContactDetail label="Agent" value={contactDetails.agentPhone} href={contactDetails.agentPhoneHref} />
           </div>
         </header>
 
@@ -52,6 +53,7 @@ export function App() {
           <div className="mt-8 divide-y divide-brand/10 border-y border-brand/10 lg:hidden">
             <ContactDetail label="Email" value={contactDetails.email} href={`mailto:${contactDetails.email}`} />
             <ContactDetail label="Phone" value={contactDetails.phone} href={contactDetails.phoneHref} />
+            <ContactDetail label="Agent" value={contactDetails.agentPhone} href={contactDetails.agentPhoneHref} />
           </div>
         </section>
       </main>
